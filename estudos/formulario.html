@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+   <form action="" method="GET">  
+     <label  for="n">Nome</label>
+        <input type="text" name="nome" id="n" placeholder="Digite seu nome">
+
+        <label  for="n">e-mail</label>
+        <input type="email" name="email" id="e" placeholder="Digite seu e-mail">
+
+        <label  for="d">Data de nasicmento</label>
+        <input type="date" name="date" id="d" placeholder="Digite seu e-mail">
+
+        <label  for="d">idade</label>
+        <input type="number" name="idade" id="d" placeholder="digite sua idade" min="1" max="130">
+
+        <label  for="s">Senha</label>
+        <input type="password" name="senha" id="s" placeholder="">
+
+        <label  for="a">arquivo</label>
+        <input type="File" name="Arquivo" id="s" placeholder="">
+
+        <label  for="g">Gênero:</label>
+        <input type="radio" name="genero" value="masculino" id="g">masculino</labelform>
+        <label  for="g">Gênero:</label>
+        <input type="radio" name="genero" value="masculino" id="g">Femino
+        <label  for="g">Gênero:</label>
+        <input type="radio" name="genero" value="masculino" id="g">outros</form>
+
+        <label>Esporte:</label>
+        <input><input type="Checkbox" name="esporte" value="natacao">Natação</label>
+        <input><input type="Checkbox" name="esporte" value="futebol">Futebol</label>
+        <input><input type="Checkbox" name="esporte" value="ciclismo">Ciclismo</label>
+        
+        <label for="u">UF</label>
+        <select name="uf" id="u">
+            <option value="DF">DF</option>
+            <option value="RJ">RJ</option>
+        </select>
+
+        <label for="m">Mensagem</label>
+        <textarea name="mensagem" cols="50" rows="5"
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+    </form> 
+
+</body>
+</html>
