@@ -1,0 +1,135 @@
+@charset "UTF-8";
+*{
+    margin: 0px; /*Ajustar para as bordas*/
+    padding: 0px; /* Ajustar para o centro*/
+
+}
+
+body{
+    font-family:arial, sans-serif;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header{
+    background-color:#217c68a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 99%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+}
+
+#menu li{
+    margin-left:20px ;
+}
+
+#menu a:link, a:visited{
+    font-size: 1.3rem;
+    padding: 17px;
+    color: #217c689d;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    
+}
+
+#menu a:hover, a:active{
+    background-color: #1eafa3;
+    color: #D0C0B3;
+    text-shadow: 1px 1px #000;
+}
+
+#banner{
+    background-image: url('../images/i2.jpg');
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#about{
+    background-color: #217c689d;
+    height: 50vh;
+    padding: 50px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+#gallery{
+    background-color: #1aa794;
+    height: 100vh;
+    padding: 50px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+#gallery img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #193031;
+    margin: 10px;
+    top: 100px;
+    
+    
+}
+
+#contacts{
+    background-color: #156569;
+    height: 100vh;
+    padding: 50px;
+    color: #000;
+    text-shadow: 1px 1px #000;
+    font-size: 1.2rem;
+}
+
+#contacts label, button{
+    display: block;
+    margin-top: 20px;
+}
+
+#contacts input,textarea{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+#contacts button{
+    background-color: #f3f5f5da;
+   padding: 20px;
+   border-radius: 5px 10px;
+   border: none;
+}
+
+#cantacts button:hover{
+    background-color: #29888d;
+    border: 1px #ffff;
+
+}
+
+footer{
+    background-color: #0a1111;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
